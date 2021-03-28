@@ -71,11 +71,13 @@ Desenvolvemos a estrutura base de uma aplicação React utilizando:
 
 ## 📱 Preview do projeto
 
-Listagem de produtos e possibilidade de adicionar os itens no carrinho de compras.
+### Listagem de produtos na página inicial
 
-<div>
-  <img alt="Tela da aplicação" src="https://imgur.com/2QD3rKS.png" width="100%">
-</div>
+<img alt="Tela da aplicação" src="https://i.imgur.com/i8cgZJt.png" width="100%">
+
+### Tela do carrinho de compras da aplicação
+
+<img alt="Tela do carrinho" src="https://imgur.com/8kNiSKc.png" width="100%">
 
 Desenvolvido com ♥ por Milena Hikari
 
