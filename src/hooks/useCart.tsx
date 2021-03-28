@@ -90,7 +90,17 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     amount,
   }: UpdateProductAmount) => {
     try {
-      // TODO
+      const cartUpdated = cart.map(item => {
+        if (item.id === productId) {
+          return {
+            ...item,
+            amount
+          }
+        }
+        return item;
+      });
+
+      setCart(cartUpdated);
     } catch {
       toast.error('Erro na alteração de quantidade do produto');
     }
